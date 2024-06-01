@@ -1,0 +1,22 @@
+@import url('https://fonts.googleapis.com/css2?family=Barlow:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Cookie&family=Dancing+Script:wght@400..700&family=Quicksand:wght@300..700&display=swap');
+
+
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+body {
+  overflow-x: hidden;
+}
+:root {
+  --main-color: #1a1929;
+  --secondary-color: #00d2a1;
+  --light-shading: #f6f6f6;
+  --yellowish-color: #caff6b;
+  --sharp-font:"Barlow", sans-serif;
+  --smooth-font:"Quicksand", sans-serif;
+  --cursive-font-one:"Dancing Script", cursive;
+  --cursive-font-two:"Cookie", cursive;
+}

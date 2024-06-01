@@ -1,12 +1,19 @@
+import "./App.css";
+import Header from "./Components/Header/Header";
 
-const App = () =>{
+function App() {
   return (
-    <div>
-        <h1 className="text-3xl font-bold underline text-red-600">
-      Hello world!
-    </h1>
-    </div>
-  )
+    <>
+    <Header/>
+      {/* <BrowserRouter>
+        <Header />
+        <Routes>
+          <Route path="/" element={<Home />} />
+          <Route path="*" element={<NotFound />} />
+        </Routes>
+      </BrowserRouter> */}
+    </>
+  );
 }
 
-export default App
+export default App;
