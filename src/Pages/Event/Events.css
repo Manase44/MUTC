@@ -1,6 +1,9 @@
 .events-section {
   padding: 0 3rem;
 }
+.section-description em {
+  text-decoration: underline;
+}
 .events-schedule-container {
   margin-top: 1rem;
   display: grid;

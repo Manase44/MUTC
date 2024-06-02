@@ -6,6 +6,13 @@ const Events = () => {
   return (
     <section className="events-section" id="events">
       <h1 className="section-title">events schedule</h1>
+      <p className="section-description">
+        We have weekly events about the various tracks that we offer. Checkout
+        the timetable.{" "}
+      </p>
+      <p className="section-description">
+        <strong>Note: </strong> All sessions will take place in <em>Lab F04</em>
+      </p>
       <div className="events-schedule-container">
         {schedule.map((currentSchedule) => {
           return (
