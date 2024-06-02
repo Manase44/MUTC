@@ -1,0 +1,62 @@
+.events-section {
+  padding: 0 3rem;
+}
+.events-schedule-container {
+  margin-top: 1rem;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  column-gap: 2rem;
+  row-gap: 1.5rem;
+}
+.event-item {
+  background-color: var(--light-shading);
+  border-radius: 7px;
+  box-shadow: 0 2px 4px 0 rgba(50, 50, 93, 0.2);
+  display: flex;
+  overflow: hidden;
+}
+.event-item-day {
+  background-color: var(--secondary-color);
+  display: grid;
+  place-content: center;
+  width: 30%;
+}
+.event-item-every {
+  display: flex;
+  align-items: center;
+  gap: 0.4rem;
+}
+.event-item-day span {
+  font-weight: 600;
+  font-size: 17px;
+  text-transform: capitalize;
+}
+.event-item-content {
+  padding: 0.5rem 1rem;
+}
+.event-item-name p {
+  text-transform: capitalize;
+  font-weight: 600;
+  font-size: 17px;
+}
+.event-item-location {
+  margin: 4px 0;
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+}
+
+@media screen and (max-width: 850px) {
+  .events-schedule-container {
+    grid-template-columns: repeat(1, 1fr);
+  }
+}
+@media screen and (max-width: 500px) {
+  .event-item {
+    flex-direction: column;
+  }
+  .event-item-day {
+    width: 100%;
+    padding: 4px 0;
+  }
+}
