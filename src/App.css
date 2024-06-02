@@ -10,6 +10,7 @@
 body {
   overflow-x: hidden;
   font-family: var(--sharp-font);
+  scroll-behavior: smooth;
 }
 :root {
   --black-shade:#171816;
@@ -21,4 +22,5 @@ body {
   --smooth-font:"Quicksand", sans-serif;
   --cursive-font-one:"Dancing Script", cursive;
   --cursive-font-two:"Cookie", cursive;
+  --button-radius:7px;
 }
