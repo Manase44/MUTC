@@ -55,7 +55,8 @@ const Footer = () => {
       </div>
       <div className="footer-copyright">
         <p>
-          &copy; {new Date().getFullYear()} -{" "}
+          <strong>MUTC </strong>
+          copyright &copy; {new Date().getFullYear()} -{" "}
           <a href="https://www.linkedin.com/in/manasegunga/" target="_blank">
             Manase Gunga
           </a>

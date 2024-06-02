@@ -1,6 +1,7 @@
 import { RiDoubleQuotesL, RiDoubleQuotesR } from "react-icons/ri";
 import testimonies from "../../Data/testimonies";
-import attestantImage from "../../assets/Images/attestantImage.webp";
+import mattestantImage from "../../assets/Images/attestantImage.webp";
+import wattstantImage from "../../assets/Images/wattestant.jpg";
 
 const Testimonials = () => {
   return (
@@ -14,7 +15,9 @@ const Testimonials = () => {
               <div className="testimony-header">
                 <div className="attestant-image-div">
                   <img
-                    src={attestantImage}
+                    src={
+                      current.id == "tmny01" ? mattestantImage : wattstantImage
+                    }
                     width={100}
                     alt="The attestant facial impression"
                   />

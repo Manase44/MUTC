@@ -1,9 +1,9 @@
-import cyberImage from "../assets/Images/tracks/cybersecurity.webp"
-import cloudImage from "../assets/Images/tracks/cloudengineering.webp"
-import mobileImage from "../assets/Images/tracks/mobile.webp"
-import powerImage from "../assets/Images/tracks/powerplatform.webp"
-import uiuxImage from "../assets/Images/tracks/ui-ux.webp"
-import webImage from "../assets/Images/tracks/webdev.webp"
+import cyberImage from "../assets/Images/tracks/cybersecurity.webp";
+import cloudImage from "../assets/Images/tracks/cloudengineering.webp";
+import mobileImage from "../assets/Images/tracks/mobile.webp";
+import powerImage from "../assets/Images/tracks/powerplatform.webp";
+import uiuxImage from "../assets/Images/tracks/ui-ux.webp";
+import webImage from "../assets/Images/tracks/webdev.webp";
 const tracks = [
   {
     id: "track001",

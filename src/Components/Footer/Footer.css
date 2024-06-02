@@ -5,6 +5,7 @@
 }
 .footer-title {
   margin: 0.6rem auto;
+  text-transform: capitalize;
   color: var(--light-shading);
 }
 .footer-subtitle {

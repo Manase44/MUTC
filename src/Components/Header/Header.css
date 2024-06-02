@@ -21,13 +21,13 @@ header {
   text-decoration: none;
   color: var(--light-shading);
   text-transform: capitalize;
-  font-size: 17px;
+  font-size: 18px;
 }
 .header-list-item a:hover {
   color: var(--secondary-color);
 }
 .header-logo img {
-  max-width: 4rem;
+  max-width: 3.6rem;
 }
 .header-register-button {
   background-color: var(--secondary-color);

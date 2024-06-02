@@ -15,7 +15,11 @@ const Tracks = () => {
           return (
             <div key={currentTrack.id} className="track-item">
               <div className="track-item-image">
-                <img src={currentTrack.image} width={200} alt="A picture resembling the track" />
+                <img
+                  src={currentTrack.image}
+                  width={200}
+                  alt="A picture resembling the track"
+                />
               </div>
               <p className="track-item-name">{currentTrack.name}</p>
               <p className="track-item-descripption">

@@ -16,9 +16,7 @@ body {
   --light-shading: #f6f6f6;
   --greyish-shading: rgb(105, 104, 104);
   --sharp-font: "Barlow", sans-serif;
-  --smooth-font: "Quicksand", sans-serif;
-  --cursive-font-one: "Dancing Script", cursive;
-  --cursive-font-two: "Cookie", cursive;
+  --cursive-font: "Cookie", cursive;
   --button-radius: 7px;
   --transition: all 0.5s;
   --box: 0 2px 4px 0 rgba(50, 50, 93, 0.2);
