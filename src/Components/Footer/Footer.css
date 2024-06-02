@@ -1,7 +1,7 @@
 .footer {
   margin-top: 1.2rem;
   padding: 1rem 2rem;
-  background-color: var(--black-shade);
+  background-color: var(--main-color);
 }
 .footer-title {
   margin: 0.6rem auto;
@@ -14,36 +14,42 @@
 .footer-content {
   margin: 1rem auto;
   display: grid;
-  grid-template-columns: auto 2fr 3fr;
+  grid-template-columns: 2fr 1fr 1fr;
   gap: 1.5rem;
 }
 .footer-form,
 .subscribe-description {
   color: var(--light-shading);
-  margin-top: 0.5rem;
+  margin-top: 1.5rem;
+}
+.footer-form {
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
 }
 .footer-form input[type="email"] {
   border: none;
   border-bottom: 1px solid var(--secondary-color);
   background-color: transparent;
-  color: var(--button-radius);
+  color: var(--light-shading);
   outline: none;
-  padding: 2px 5px;
+  padding: 5px 7px;
   margin-right: 0.8rem;
-  font-size: 15px;
+  font-size: 17px;
 }
 .footer-form input[type="submit"] {
   border: none;
   background-color: var(--secondary-color);
-  padding: 4px 7px;
+  padding: 6px 8px;
   border-radius: var(--button-radius);
   cursor: pointer;
-  transition: all 0.2s;
+  transition: var(--transition);
   text-transform: capitalize;
 }
 .footer-form input[type="submit"]:hover {
   border: 1px solid var(--secondary-color);
   background-color: transparent;
+  color: var(--light-shading);
 }
 .footer-links-div {
   display: flex;

@@ -9,7 +9,7 @@
   gap: 1.2rem;
 }
 .background {
-  background-color: var(--yellowish-color);
+  background-color: var(--secondary-color);
 }
 .leader-card {
   display: flex;
@@ -25,14 +25,14 @@
 .leader-image img {
   width: 100%;
   object-fit: cover;
-  transition: all 0.5s;
+  transition: var(--transition);
 }
 .leader-image img:hover {
   scale: 1.3;
 }
 .socials {
   position: absolute;
-  background-color: blue;
+  background-color: var(--secondary-color);
   height: 100%;
   width: 15%;
   top: 0;
@@ -43,7 +43,7 @@
   align-items: center;
   justify-content: center;
   transform: translateX(100%);
-  transition: all 0.5s;
+  transition: var(--transition);
 }
 .leader-image:hover .socials {
   transform: none;
@@ -57,7 +57,7 @@
 .line {
   width: 0.2rem;
   height: 3rem;
-  background-color: black;
+  background-color: var(--main-color);
   transform: translateY(-0.7rem);
 }
 .socials ul {
@@ -71,11 +71,10 @@
   color: inherit;
 }
 .leader-details {
-  --radius: 7px;
   background-color: var(--light-shading);
-  box-shadow: 0 2px 4px 0 rgba(50, 50, 93, 0.2);
-  border-bottom-right-radius: var(--radius);
-  border-bottom-left-radius: var(--radius);
+  box-shadow: var(--box);
+  border-bottom-right-radius: var(--button-radius);
+  border-bottom-left-radius: var(--button-radius);
   width: 85%;
   display: flex;
   flex-direction: column;
@@ -93,7 +92,7 @@
   font-size: 18px;
   text-transform: capitalize;
   margin-top: 0.3rem;
-  color: rgb(88, 87, 87);
+  color: var(--greyish-shading);
 }
 .leader-bio {
   text-align: justify;

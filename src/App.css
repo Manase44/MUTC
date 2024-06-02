@@ -11,14 +11,15 @@ body {
   scroll-behavior: smooth;
 }
 :root {
-  --black-shade: #171816;
-  --main-color: #1a1929;
-  --secondary-color: #00d2a1;
+  --main-color: #171816;
+  --secondary-color: orange;
   --light-shading: #f6f6f6;
-  --yellowish-color: #caff6b;
+  --greyish-shading: rgb(105, 104, 104);
   --sharp-font: "Barlow", sans-serif;
   --smooth-font: "Quicksand", sans-serif;
   --cursive-font-one: "Dancing Script", cursive;
   --cursive-font-two: "Cookie", cursive;
   --button-radius: 7px;
+  --transition: all 0.5s;
+  --box: 0 2px 4px 0 rgba(50, 50, 93, 0.2);
 }

@@ -1,6 +1,6 @@
 header {
   width: 100vw;
-  background-color: var(--black-shade);
+  background-color: var(--main-color);
   padding: 0.5rem 2rem;
 }
 .header-nav {
@@ -11,23 +11,35 @@ header {
 }
 
 .header-list {
-  background-color: var(--black-shade);
+  background-color: var(--main-color);
   list-style: none;
   display: flex;
   gap: 1rem;
 }
 .header-list-item a,
-.header-register-button-link {
+.header-register-button {
   text-decoration: none;
   color: var(--light-shading);
   text-transform: capitalize;
   font-size: 17px;
 }
+.header-list-item a:hover {
+  color: var(--secondary-color);
+}
 .header-logo img {
   max-width: 4rem;
 }
 .header-register-button {
-  padding: 2px 5px;
+  background-color: var(--secondary-color);
+  border-radius: var(--button-radius);
+  padding: 7px 8px;
+  color: var(--main-color);
+  transition: var(--transition);
+}
+.header-register-button:hover {
+  color: var(--light-shading);
+  background-color: transparent;
+  border: 1px solid var(--secondary-color);
 }
 
 .bottom-header-list {

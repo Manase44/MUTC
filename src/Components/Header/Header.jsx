@@ -1,5 +1,6 @@
 import "./Header.css";
 import List from "./List";
+import { Link } from "react-router-dom";
 
 const Header = () => {
   return (
@@ -8,13 +9,13 @@ const Header = () => {
         <nav className="header-nav">
           <List className="upper-header-list" />
           <div className="header-logo">
-            <img src="./favicon.png" alt="The MUTC logo" />
+            <Link to={"/"}>
+              <img src="./favicon.png" alt="The MUTC logo" />
+            </Link>
           </div>
-          <div className="header-register-button">
-            <a href="" className="header-register-button-link">
-              register
-            </a>
-          </div>
+          <a href="" className="header-register-button">
+            register
+          </a>
         </nav>
         <List className="bottom-header-list" />
       </header>

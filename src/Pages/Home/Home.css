@@ -18,6 +18,7 @@
   font-size: 50px;
   font-family: var(--cursive-font-two);
   font-weight: 500;
+  color: var(--secondary-color);
 }
 .hero-section-title {
   font-size: 60px;
@@ -50,13 +51,13 @@
 .about-section-image {
   width: 100%;
   overflow: hidden;
-  border-radius: 7px;
+  border-radius: var(--button-radius);
 }
 .about-section-image img {
   width: 100%;
   object-fit: cover;
-  border-radius: 7px;
-  box-shadow: 0 2px 4px 0 rgba(50, 50, 93, 0.2);
+  border-radius: var(--button-radius);
+  box-shadow: var(--box);
   transition: all 0.5s;
 }
 .about-section-image img:hover {
@@ -102,7 +103,7 @@
   padding: 0 2rem;
 }
 .testimonial-item {
-  box-shadow: 0 2px 4px 0 rgba(50, 50, 93, 0.2);
+  box-shadow: var(--box);
   border-radius: 0.8rem;
   background-color: var(--light-shading);
   padding: 1rem;
@@ -110,7 +111,6 @@
   height: max-content;
 }
 .testimony-header {
-  --size: 3rem;
   display: flex;
   align-items: center;
   gap: 0.5rem;
@@ -120,6 +120,7 @@
   place-content: center;
 }
 .attestant-image-div img {
+  --size: 3rem;
   width: var(--size);
   height: var(--size);
   border-radius: 50%;
@@ -130,7 +131,7 @@
 }
 .attestant-title {
   text-transform: capitalize;
-  color: rgb(68, 66, 66);
+  color: var(--greyish-shading);
 }
 .testimony-text {
   margin-top: 0.5rem;
