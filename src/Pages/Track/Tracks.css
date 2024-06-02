@@ -28,13 +28,71 @@
   text-align: center;
 }
 
+
+.register-section{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 1.5rem;
+}
+.form{
+    width: 50%;
+}
+.form-input{
+    display: flex;
+    flex-direction: column;
+    gap: .2rem;
+    margin: .8rem auto;
+}
+.form-input label{
+    font-size: 17px;
+    font-weight: 500;
+}
+.form-input input, .form-input select, .form-submission input{
+    padding: 5px 7px;
+    font-size: 17px;
+    outline: none;
+}
+.form-input input:focus{
+    border: none;
+    border-bottom: 1px solid var(--secondary-color);
+}
+.form-submission input{
+    width: 100%;
+    border: none;
+    border-radius: 7px;
+    background-color: var(--secondary-color);
+    cursor: pointer;
+    transition: all .5s;
+}
+.form-submission input:hover{
+    background-color: transparent;
+    border: 1px solid var(--secondary-color);
+}
+
+
+
+
+
+
+
 @media screen and (max-width: 950px) {
   .track-section {
     grid-template-columns: repeat(2, 1fr);
   }
 }
-@media screen and (max-width: 950px) {
+@media screen and (max-width: 700px) {
   .track-section {
     grid-template-columns: repeat(1, auto);
   }
+  .form{
+    width: 70%;
+}
+ 
+}
+@media screen and (max-width: 576px){
+    .form{
+        width: 100%;
+    }
 }
