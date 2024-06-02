@@ -1,8 +1,13 @@
-ipo;
+import cyberImage from "../assets/Images/tracks/cybersecurity.webp"
+import cloudImage from "../assets/Images/tracks/cloudengineering.webp"
+import cyberImage from "../assets/Images/tracks/cybersecurity.webp"
+import cyberImage from "../assets/Images/tracks/cybersecurity.webp"
+import cyberImage from "../assets/Images/tracks/cybersecurity.webp"
+import cyberImage from "../assets/Images/tracks/cybersecurity.webp"
 const tracks = [
   {
     id: "track001",
-    image: "",
+    image: cyberImage,
     name: "cyber security",
     description:
       "This track enable students to have critical aspects of protecting systems, networks, and data from cyber threats. They learn about various security protocols, ethical hacking, encryption techniques, and threat analysis. They, engage in hands-on projects and real-world scenarios to apply their knowledge in identifying and mitigating security vulnerabilities. By the end of the track, they get equipped with the skills to safeguard digital environments, conduct security audits, and implement robust security measures to protect against cyber attacks.",
@@ -30,7 +35,7 @@ const tracks = [
   },
   {
     id: "track0015",
-    image: "",
+    image: cloudImage,
     name: "cloud engineering",
     description:
       "Students dive into the world of cloud computing and its applications. They will learn about various cloud service providers such as AWS, Google Cloud, and Microsoft Azure, and understand how to design, deploy, and manage scalable and secure cloud infrastructures. Through practical projects and hands-on labs, students will gain experience in cloud architecture, virtualization, containerization, and DevOps practices. By the end of the track, students will be capable of leveraging cloud technologies to build and maintain robust cloud-based solutions, ensuring high availability and performance for applications and services.",

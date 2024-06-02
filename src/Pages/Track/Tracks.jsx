@@ -1,5 +1,4 @@
 import "./Tracks.css";
-import uiuxImage from "../../assets/Images/ux-ui.jpeg";
 import tracks from "../../Data/tracks";
 import RegisterTrack from "./RegisterTrack";
 
@@ -16,7 +15,7 @@ const Tracks = () => {
           return (
             <div key={currentTrack.id} className="track-item">
               <div className="track-item-image">
-                <img src={uiuxImage} alt="A picture resembling the track" />
+                <img src={currentTrack.image} alt="A picture resembling the track" />
               </div>
               <p className="track-item-name">{currentTrack.name}</p>
               <p className="track-item-descripption">
