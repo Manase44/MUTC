@@ -1,0 +1,40 @@
+.tracks{
+    padding: 0 2rem;
+}
+.section-description{
+    text-align: center;
+    letter-spacing: 3px;
+}
+.track-section{
+    margin-top: 1.5rem;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 1rem;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.track-item-image{
+    display: grid;
+    place-content: center;
+}
+.track-item-name{
+    text-transform: capitalize;
+    font-weight: 650;
+    font-size: 18px;
+    text-align: center;
+    margin: 1rem 0;
+}
+.track-item-descripption{
+    text-align: center;
+}
+
+@media screen and (max-width:950px) {
+    .track-section{
+        grid-template-columns: repeat(2, 1fr);
+    }
+}
+@media screen and (max-width:950px) {
+    .track-section{
+        grid-template-columns: repeat(1,auto);
+    }
+}
