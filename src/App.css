@@ -9,8 +9,10 @@
 }
 body {
   overflow-x: hidden;
+  font-family: var(--sharp-font);
 }
 :root {
+  --black-shade:#171816;
   --main-color: #1a1929;
   --secondary-color: #00d2a1;
   --light-shading: #f6f6f6;
