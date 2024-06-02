@@ -1,9 +1,16 @@
-import React from "react";
+import "./Home.css";
+import Hero from "./Hero";
+import About from "./About";
+import Testimonials from "./Testimonials";
 
 
 const Home = () => {
   return (
-    <div>Home</div>
+    <div>
+      <Hero/>
+      <About/>
+      <Testimonials/>
+    </div>
   );
 };
 
