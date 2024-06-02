@@ -8,7 +8,7 @@ import { BsQuestionCircleFill } from "react-icons/bs";
 const About = () => {
   return (
     <section id="about" className="about-section">
-      <h1 className="about-title">about MUTC</h1>
+      <h1 className="section-title">about MUTC</h1>
       <div className="about-section-content">
         <div className="about-section-image">
           <img src={aboutImage} alt="MUTC teaching session ongoing" />
