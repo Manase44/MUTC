@@ -1,5 +1,5 @@
 .hero-section{
-    height: 80vh;
+    height: 70vh;
     display: grid;
     place-content: center;
     text-align: center;
@@ -24,4 +24,66 @@
     font-size: 20px;
     letter-spacing: 3px;
     font-weight: 400;
+}
+
+
+
+.about-section{
+    margin-top: 1.5rem;
+    padding: 0 3rem;
+}
+.about-title{
+    text-transform: capitalize;
+    font-size: 40px;
+    text-align: center;
+}
+.about-section-content{
+    margin-top: 1.5rem;
+    display: grid;
+    grid-template-columns:1fr 1fr;
+    gap: 1rem;
+}
+.about-section-image{
+    overflow: hidden;
+    border-radius: 7px;
+}
+.about-section-image img{
+    width: 100%;
+    object-fit: cover;
+    border-radius: 7px;
+    box-shadow: 0 2px 4px 0 rgba(50, 50, 93, .2);
+    transition: all .5s;
+}
+.about-section-image img:hover{
+    transform: scale(1.1);
+}
+.about-section-subtitle{
+    margin-top: 1rem;
+    text-transform: capitalize;
+    display: flex;
+    align-items: center;
+
+}
+.about-section-subtitle-icons{
+    --width-size:3.5rem;
+    height: var(--width-size);
+    width: var(--width-size);
+    margin-right: .5rem;
+    border-radius: 50%;
+    background-color: var(--light-shading);
+    display: grid;
+    place-content: center;
+}
+.what-is-mutc p, .mission p, .objectives p{
+    text-align: justify;
+    line-height: 1.8rem;
+}
+.values-list{
+    display: flex;
+    justify-content: space-around;
+    list-style-type:none;
+    line-height: 1.8rem;
+}
+.values-item{
+    text-transform: capitalize;
 }
