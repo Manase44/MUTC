@@ -15,15 +15,15 @@ const Tracks = () => {
         {tracks.map((currentTrack) => {
           return (
             <div key={currentTrack.id} className="track-item">
-            <div className="track-item-image">
-              <img src={uiuxImage} alt="A picture resembling the track" />
+              <div className="track-item-image">
+                <img src={uiuxImage} alt="A picture resembling the track" />
+              </div>
+              <p className="track-item-name">{currentTrack.name}</p>
+              <p className="track-item-descripption">
+                {currentTrack.description}
+              </p>
             </div>
-            <p className="track-item-name">{currentTrack.name}</p>
-            <p className="track-item-descripption">
-              {currentTrack.description}
-            </p>
-          </div>
-          )
+          );
         })}
       </div>
       <RegisterTrack />

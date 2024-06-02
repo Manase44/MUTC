@@ -1,4 +1,4 @@
-import "./App.css"
+import "./App.css";
 import { BrowserRouter, Routes, Route } from "react-router-dom";
 import Home from "./Pages/Home/Home";
 import NotFound from "./Pages/NotFound/NotFound";
@@ -12,15 +12,15 @@ function App() {
   return (
     <>
       <BrowserRouter>
-      <Header />
+        <Header />
         <Routes>
           <Route path="/" element={<Home />} />
-          <Route path="/leadership" element={<Leardership />}/>
-          <Route path="/tracks" element={<Tracks />}/>
-          <Route path="/events" element={<Events />}/>
+          <Route path="/leadership" element={<Leardership />} />
+          <Route path="/tracks" element={<Tracks />} />
+          <Route path="/events" element={<Events />} />
           <Route path="*" element={<NotFound />} />
         </Routes>
-      <Footer />
+        <Footer />
       </BrowserRouter>
     </>
   );

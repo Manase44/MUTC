@@ -4,7 +4,6 @@ import { FaHandsHoldingCircle } from "react-icons/fa6";
 import { IoRocketSharp } from "react-icons/io5";
 import { BsQuestionCircleFill } from "react-icons/bs";
 
-
 const About = () => {
   return (
     <section id="about" className="about-section">
@@ -16,7 +15,12 @@ const About = () => {
         <div className="about-section-text">
           <div className="what-is-mutc">
             <h2 className="about-section-subtitle">
-              <div className="about-section-subtitle-icons"> <BsQuestionCircleFill/></div> what is MUTC</h2>
+              <div className="about-section-subtitle-icons">
+                {" "}
+                <BsQuestionCircleFill />
+              </div>{" "}
+              what is MUTC
+            </h2>
             <p>
               Murang'a University Tech Club (MUTC) is a dynamic and innovative
               student organization dedicated to fostering excellence in
@@ -29,15 +33,24 @@ const About = () => {
           </div>
           <div className="mission">
             <h2 className="about-section-subtitle">
-              <div className="about-section-subtitle-icons"> <IoRocketSharp /></div>
-               mission
+              <div className="about-section-subtitle-icons">
+                {" "}
+                <IoRocketSharp />
+              </div>
+              mission
             </h2>
-            <p >To advance knowledge and technological transfer through teaching, training, learning, research, innovation, consultancy and community engagement for sustainable development.</p>
+            <p>
+              To advance knowledge and technological transfer through teaching,
+              training, learning, research, innovation, consultancy and
+              community engagement for sustainable development.
+            </p>
           </div>
           <div className="values">
             <h2 className="about-section-subtitle">
-              <div className="about-section-subtitle-icons"><FaHandsHoldingCircle /></div>
-               values
+              <div className="about-section-subtitle-icons">
+                <FaHandsHoldingCircle />
+              </div>
+              values
             </h2>
             <ul className="values-list">
               <li className="values-item">collaboration</li>
@@ -48,10 +61,13 @@ const About = () => {
           </div>
           <div className="objectives">
             <h2 className="about-section-subtitle">
-              <div className="about-section-subtitle-icons"> <AiOutlineAim /></div>
-               objectives
+              <div className="about-section-subtitle-icons">
+                {" "}
+                <AiOutlineAim />
+              </div>
+              objectives
             </h2>
-            <p> 
+            <p>
               we aim to enhance our members' academic experiences, broaden their
               perspectives, and prepare them for successful careers in the field
               of engineering.

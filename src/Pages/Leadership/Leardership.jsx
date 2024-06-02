@@ -1,7 +1,5 @@
 const Leardership = () => {
-  return (
-    <div>Leardership</div>
-  )
-}
+  return <div>Leardership</div>;
+};
 
-export default Leardership
+export default Leardership;

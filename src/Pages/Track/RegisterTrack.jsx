@@ -1,7 +1,5 @@
 const RegisterTrack = () => {
-  return (
-    <div>RegisterTrack</div>
-  )
-}
+  return <div>RegisterTrack</div>;
+};
 
-export default RegisterTrack
+export default RegisterTrack;

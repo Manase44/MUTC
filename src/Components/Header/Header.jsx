@@ -6,7 +6,7 @@ const Header = () => {
     <div>
       <header className="header">
         <nav className="header-nav">
-        <List className="upper-header-list" />
+          <List className="upper-header-list" />
           <div className="header-logo">
             <img src="./favicon.png" alt="The MUTC logo" />
           </div>
