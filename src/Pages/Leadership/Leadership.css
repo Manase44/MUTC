@@ -1,0 +1,116 @@
+.leadership-section{
+    padding: 0 3rem;
+}
+.leadership-container{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    justify-content: center;
+    gap: 1.2rem;
+}
+.background{
+    background-color: var(--yellowish-color);
+}
+.leader-card{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.leader-image{
+    position: relative;
+    overflow: hidden;
+    border-radius: 7px;
+    max-width: 300px;
+}
+.leader-image img{
+    width:100%;
+    object-fit: cover;
+    transition: all .5s;
+}
+.leader-image img:hover{
+    scale: 1.3;
+}
+.socials{
+    position: absolute;
+    background-color: blue;
+    height: 100%;
+    width: 15%;
+    top: 0;
+    right: 0;
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+    align-items: center;
+    justify-content: center;
+    transform: translateX(100%);
+    transition: all .5s;
+}
+.leader-image:hover .socials{
+    transform: none;
+}
+.follow-text{
+    text-transform: capitalize;
+    font-weight: 500;
+    font-size: 17px;
+    transform: rotate(-90deg);
+}
+.line{
+    width: .2rem;
+    height: 3rem;
+    background-color: black;
+    transform: translateY(-.7rem);
+}
+.socials ul{
+    list-style: none;
+}
+.socials ul li{
+    margin: 1rem 0;
+    font-size: 20px;
+}
+.socials ul li a{
+    color: inherit;
+}
+.leader-details{
+    --radius:7px;
+    background-color: var(--light-shading);
+    box-shadow: 0 2px 4px 0 rgba(50, 50, 93, 0.2);
+    border-bottom-right-radius:var(--radius) ;
+    border-bottom-left-radius:var(--radius) ;
+    width: 85%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: .5rem 1rem;
+    transform: translateY(-1rem);
+}
+.leader-name{
+    font-weight: 600;
+    font-size: 18px;
+    text-transform: capitalize;
+}
+
+.leader-position{
+    font-size: 18px;
+    text-transform: capitalize;
+    margin-top: .3rem;
+    color: rgb(88, 87, 87);
+}
+.leader-bio{
+    text-align: justify;
+    margin-top: .4rem;
+}
+
+@media screen and (max-width:992px) {
+    .leadership-container{
+        grid-template-columns: repeat(3, 1fr);
+    }
+}
+@media screen and (max-width: 756px) {
+    .leadership-container{
+        grid-template-columns: repeat(2, 1fr);
+    }
+}
+@media screen and (max-width: 550px) {
+    .leadership-container{
+        grid-template-columns: repeat(1, 1fr);
+    }
+}
