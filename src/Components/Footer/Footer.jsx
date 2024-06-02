@@ -21,33 +21,49 @@ const Footer = () => {
         <div>
           <h4 className="footer-subtitle">links</h4>
           <div className="footer-links-div">
-            <Link to={"/about"} className="footer-link-item">
+            <Link to={"/"} className="footer-link-item">
               About us
             </Link>
             <Link to={"/events"} className="footer-link-item">
               our events
             </Link>
-            <a href="" className="footer-link-item">
+            <Link to={"/tracks"} className="footer-link-item">
               our tracks
-            </a>
-            <a href="" className="footer-link-item">
+            </Link>
+            <Link to={"/leadership"} className="footer-link-item">
               view our leadership
-            </a>
+            </Link>
           </div>
         </div>
         <div className="footer-club-social">
           <h4 className="footer-subtitle">social links</h4>
           <div className="footer-links-div">
-            <a href="" className="footer-link-item">
+            <a
+              href="https://www.linkedin.com/in/manasegunga/"
+              target="_blank"
+              className="footer-link-item"
+            >
               linkedin
             </a>
-            <a href="" className="footer-link-item">
+            <a
+              href="https://www.instagram.com/fikopersempre/"
+              target="_blank"
+              className="footer-link-item"
+            >
               instagram
             </a>
-            <a href="" className="footer-link-item">
+            <a
+              href="https://web.facebook.com/?_rdc=1&_rdr"
+              target="_blank"
+              className="footer-link-item"
+            >
               facebook
             </a>
-            <a href="" className="footer-link-item">
+            <a
+              href="https://x.com/"
+              target="_blank"
+              className="footer-link-item"
+            >
               x
             </a>
           </div>

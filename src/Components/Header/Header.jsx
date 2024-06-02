@@ -13,7 +13,7 @@ const Header = () => {
               <img src="./favicon.png" alt="The MUTC logo" />
             </Link>
           </div>
-          <a href="" className="header-register-button">
+          <a href="/tracks" className="header-register-button">
             register
           </a>
         </nav>
