@@ -20,4 +20,5 @@ body {
   --button-radius: 7px;
   --transition: all 0.5s;
   --box: 0 2px 4px 0 rgba(50, 50, 93, 0.2);
+  --section-margins: 5.2rem;
 }

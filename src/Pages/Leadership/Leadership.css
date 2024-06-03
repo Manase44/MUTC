@@ -1,5 +1,6 @@
 .leadership-section {
   padding: 0 3rem;
+  margin-top: var(--section-margins);
 }
 .leadership-container {
   margin-top: 1.5rem;

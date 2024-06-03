@@ -1,5 +1,6 @@
 .tracks {
   padding: 0 2rem;
+  margin-top: var(--section-margins);
 }
 .section-description {
   text-align: center;
