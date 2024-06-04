@@ -22,3 +22,8 @@ body {
   --box: 0 2px 4px 0 rgba(50, 50, 93, 0.2);
   --section-margins: 5.2rem;
 }
+@media screen and (max-width: 650px) {
+  :root {
+    --section-margins: 6.5rem;
+  }
+}

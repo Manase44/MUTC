@@ -56,6 +56,7 @@
 }
 .about-section-image img {
   width: 100%;
+  height: 680px;
   object-fit: cover;
   border-radius: var(--button-radius);
   box-shadow: var(--box);
@@ -98,8 +99,9 @@
 }
 .testimonial-items {
   margin-top: 1.5rem;
-  display: grid;
-  grid-template-columns:repeat(3, 1fr);
+  columns: 3;
+  /* display: grid;
+  grid-template-columns:repeat(3, 1fr); */
   gap: 1.2rem;
   padding: 0 2rem;
 }
@@ -107,9 +109,11 @@
   box-shadow: var(--box);
   border-radius: 0.8rem;
   background-color: var(--light-shading);
+  margin-bottom: 1.2rem;
   padding: 1rem;
   display: grid;
   height: max-content;
+  break-inside: avoid;
 }
 .testimony-header {
   display: flex;
@@ -153,5 +157,15 @@
   }
   .values-list {
     gap: 1rem;
+  }
+}
+@media screen and (max-width: 756px) {
+  .testimonial-items {
+    columns: 2;
+  }
+}
+@media screen and (max-width: 500px) {
+  .testimonial-items {
+    columns: 1;
   }
 }
